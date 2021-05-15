@@ -51,6 +51,13 @@ h1{
  .not-kiwi {
    padding-left: 20px;
  }
+ img {
+   float: left;
+   padding-right: 23px;
+ }
+ .article {
+   padding-right: 23px;
+ }
  @media(max-width:750px){
    .grid-container {
      display: block;
@@ -65,5 +72,8 @@ h1{
    }
    #annoying {
     width: 200px;
+   }
+   img {
+     float: none;
    }
  }

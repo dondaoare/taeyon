@@ -52,6 +52,13 @@ h1{
  .not-kiwi {
    padding-left: 20px;
  }
+ img {
+   float: left;
+   padding-right: 23px;
+ }
+ .article {
+   padding-right: 23px;
+ }
  @media(max-width:750px){
    .grid-container {
      display: block;
@@ -64,9 +71,6 @@ h1{
    h1 {
      font-size: 30px;
    }
-  #grid ol{
-    border-right:none;
-  }
   #fruit {
    width: 200px;
   }
