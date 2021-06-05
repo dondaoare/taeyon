@@ -7,24 +7,28 @@ h1{
   margin:0;
   padding:20px;
 }
- a {
-   color: darkgray;
+
+ li a {
+   display: block;
    text-decoration: none;
+   padding: 12px 15px;
+   color: white;
+   text-align: center;
  }
- a:hover{
-   text-decoration: underline;
-   color: black;
-   font-weight: bold;
+ a:hover:not(#fart,#buyorange){
+   background-color: #d8a66e;
  }
  .item1 { grid-area: header;}
- .item2 { grid-area: menu; }
- .item3 { grid-area: left; }
+ .item2 { grid-area: menu; background-color: #cf8a46;}
+ .item3 { grid-area: left; background-color: #DEB887;}
  .item4 {
    grid-area: main;
    padding-left: 30px;
    padding-top: 15px;
  }
-
+ .item1 , .item4 {
+   background-color: white;
+ }
  .grid-container {
    display: grid;
    grid-template-areas:
@@ -37,16 +41,15 @@ h1{
   background-color: black;
  }
 
- .grid-container > div {
-   background-color: white;
- }
  .suspect {
    margin: 0;
    text-align: center;
    padding-top: 10px;
  }
  .item3 ol {
-   padding-left: 30px;
+   padding-left: 0;
+   margin: 0;
+   list-style-type: none;
  }
  .not-kiwi {
    padding-left: 20px;
